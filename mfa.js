@@ -2,9 +2,9 @@
 const http2 = require('http2');
 const fs = require('fs');
 const CONFIG = {
-    token: "MTI0MDQ3MzUwOTExODA4MzA3Mg.",
-    password: "",
-    guildId: ""
+    token: "Hesap tokeni",
+    password: "Hesap Sifresi",
+    guildId: "Hangi sunucuya cekecek iseniz sunucu id"
 };
 const getHeaders = (method, path) => ({
     ':method': method,
